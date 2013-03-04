@@ -1,8 +1,1 @@
 default
-bucket 
-doors
-dye
-legacy
-stairs
-vessels
-wool
