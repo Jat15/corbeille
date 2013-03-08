@@ -55,6 +55,17 @@ minetest.register_node("corbeille:socle", {
 	end,
 })
 
+--Craft
+
+minetest.register_craft ({
+	output = "corbeille:socle",
+	recipe = {
+		{"default:wood","","default:wood"},
+		{"default:wood","","default:wood"},
+		{"default:wood","default:wood","default:wood"},
+	}
+})
+
 --Les icones
 
 minetest.register_entity("corbeille:bag1", {
